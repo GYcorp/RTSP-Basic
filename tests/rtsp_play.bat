@@ -1,0 +1,1 @@
+ffplay -fflags nobuffer -flags low_delay -framedrop -strict experimental -rtsp_transport tcp rtsp://127.0.0.1:8554/test -fs
